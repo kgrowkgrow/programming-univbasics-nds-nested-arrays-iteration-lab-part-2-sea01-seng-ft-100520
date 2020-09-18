@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
       end
         inner_index += 1
     end 
-    weekly_temp_array.push[lowest_temp]
+    weekly_temp_array << [lowest_temp]
   end 
   outer_index += 1
 end
